@@ -35,31 +35,24 @@ console.log(total) */
 /* con while */
 
 
-let numberList = [
-
-];
 
 let number = 0
-/* 
-while (number < 10){
+ 
+while (i < 10){
     const numberEl = prompt('inserisci un numero')
     console.log(numberEl)
 
     number++
 }
- 
-console.log(numberList) */
+  */
 
 
-
+/* 
 for (let i = 0; i < 10; i++) {
-    const numberEl = prompt('inserisci')
+    const numberEl = Number(prompt('inserisci'))
     console.log(numberEl)
-    const numbertotal = i;
-    console.log(numbertotal)
-
-    
+     number += numberEl;
 
 
-    
-}
+} */
+console.log(number)
