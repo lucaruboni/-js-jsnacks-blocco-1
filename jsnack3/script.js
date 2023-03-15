@@ -2,7 +2,7 @@
 Il software deve chiedere per 10 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti. */
 
-const number1 = prompt('numero 1')
+/* const number1 = prompt('numero 1')
 console.log(Number(number1))
 const number2 = prompt('numero 2')
 console.log(Number(number2))
@@ -23,10 +23,43 @@ console.log(Number(number9))
 const number10 = prompt('numero 10')
 console.log(Number(number10))
 
-let total = Number(number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10);
-console.log(total)
+let total = number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10;
+console.log(total) */
 
 /* for (let index = 0; index < array.length; index++) {
     const element = array[index];
     
 } */
+
+
+/* con while */
+
+
+let numberList = [
+
+];
+
+let number = 0
+/* 
+while (number < 10){
+    const numberEl = prompt('inserisci un numero')
+    console.log(numberEl)
+
+    number++
+}
+ 
+console.log(numberList) */
+
+
+
+for (let i = 0; i < 10; i++) {
+    const numberEl = prompt('inserisci')
+    console.log(numberEl)
+    const numbertotal = i;
+    console.log(numbertotal)
+
+    
+
+
+    
+}
